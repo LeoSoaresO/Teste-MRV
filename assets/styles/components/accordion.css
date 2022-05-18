@@ -1,0 +1,55 @@
+@import url('../colors.css');
+
+.menu{
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.menu .drop{
+    display: block;
+    padding: 1rem;
+    border-bottom: solid 2px var(--primary);
+    position: relative;
+    font-family: Averta-regular;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary);
+}
+
+.drop:hover {
+    background-color: #f8f8f8;
+}
+  
+.drop::after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.menu .submenu {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .8s ease-out;
+}
+
+.menu .submenu p{
+    display:block;
+    padding: 1rem;
+    position: relative;
+    font-family: Averta-regular;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.menu .submenu p:hover::before{
+    opacity: 1;
+}
+
+.item:target .submenu{
+    max-height: 20rem;
+}
