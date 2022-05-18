@@ -1,0 +1,135 @@
+@import url('../style.css');
+
+@media (max-width: 780px) and (min-width: 500px) {
+    header {
+        display: none !important;
+    }
+    .header-mobile {
+        display: block !important;
+    }
+    .header-mobile img {
+        width: 100%;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .h1 {
+        font-size: 30px !important;
+        line-height: 30px !important;
+    }
+    .presentation {
+        display: block !important;
+        height: 70px !important;
+    }
+    .presentation .pres-text {
+        border-radius: 35px 0px 0px 35px !important;
+        height: 100px !important;
+        margin-left: 3%;
+        margin-top: -40px;
+        position: absolute;
+        z-index: 1;
+      }
+    .presentation .pres-text h1, h2 {
+        margin: 0px !important;
+        font-size: 30px;
+        padding-left: 30px;
+        padding-top: 10px
+    }
+    .presentation .pres-img, .acc-desk, .imgs, .values-background, .footer {
+        display: none !important;
+    } 
+    .carrer{
+        display: block !important;
+    }
+    .carrer-modal .logos {
+        margin: 12% 25% !important;
+    }
+    .acc-mobile {
+        display: block !important;
+    }
+    .space {
+        width: 97% !important;
+    }
+    .work, .form, .values, .acc, .menu, .carrer-text, .work-form .form select, input, .carrer-modal {
+        width: 100% !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+    header {
+        display: none !important;
+    }
+    .header-mobile {
+        display: block !important;
+    }
+    .header-mobile img {
+        width: 100%;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .h1 {
+        font-size: 30px !important;
+        line-height: 30px !important;
+    }
+    .presentation {
+        display: block !important;
+        height: 70px !important;
+    }
+    .presentation .pres-text {
+        border-radius: 35px 0px 0px 35px !important;
+        height: 100px !important;
+        margin-left: 3%;
+        margin-top: -40px;
+        position: absolute;
+        z-index: 1;
+      }
+    .presentation .pres-text h1, h2 {
+        margin: 0px !important;
+        font-size: 30px;
+        padding-left: 30px;
+        padding-top: 10px
+    }
+    .presentation .pres-img, .acc-desk, .imgs, .values-background, .footer {
+        display: none !important;
+    } 
+    .carrer{
+        display: block !important;
+    }
+    .carrer-text {
+        width: 100%;
+    }
+    .carrer-modal {
+        width: 100%;
+    }
+    .carrer-modal .logos {
+        margin: 12% 10% !important;
+    }
+    .acc-mobile {
+        display: block !important;
+    }
+    .space {
+        width: 97% !important;
+    }
+    .work, .form {
+        width: 100% !important;
+    }
+    .work-form .form select, input {
+        width: 100%;
+    }
+}

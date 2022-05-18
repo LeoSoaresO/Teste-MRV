@@ -10,6 +10,9 @@
 </head>
 <body class="container">
     <!-- Header -->
+    <section class="header-mobile" style="display: none;">
+        <img src="../assets/images/Foto2.png">
+    </section>
     <header>
         <div>
             <a href="index.html" class="grid-4">
@@ -23,9 +26,6 @@
                     <li><a href="#">Investidores</a></li>
                     <li><a href="#">Clientes</a></li>
                     <li><a href="#">Inovação</a></li>
-                </ul>
-                <ul>
-                <!-- Icones do canto direito -->
                 </ul>
             </nav>
             <nav class="head-menu grid-15 bar">
@@ -60,13 +60,13 @@
         </div>
         <!-- Carrers -->
         <div class="carrer">
-            <div class="grid-12">
+            <div class="grid-12 carrer-text">
                 <h1 class="h1">Explore novas oportunidades na sua carreira</h1>
                 <p class="p">Quer fazer parte da equipe de <strong>uma das melhores empresas para se trabalhar segundo o Great Place To Work 2020?</strong> </p>  
                 <p class="p">Então, junte-se a nós e amplie suas chances de mudar a vida de milhares de pessoas, e a sua também.</p>
                 <button class="btn">Conferir vagas</button>
             </div>
-            <div class="grid-8" id="openModal">
+            <div class="grid-8 carrer-modal" id="openModal">
                 <img class="logos" onclick="openModal()" src="../assets/images/Marcas.png" alt="MRV">
             </div>
         </div>  
@@ -75,7 +75,7 @@
             <div class="grid-16 acc">
                 <h1 class="h1">Nossos valores</h1>
                 <p class="p">Conheça os valores que nos guiam:</p>
-                <div style="display: flex;">
+                <div class="acc-desk" style="display: flex;">
                     <div>
                         <div class="menu">
                             <li class="item" id="mn1">
@@ -113,14 +113,49 @@
                         </div>
                     </div>
                 </div>
+                <!-- Accordion Mobile -->
+                <div class="acc-mobile" style="display: none;">
+                    <div class="menu">
+                        <li class="item" id="m1">
+                            <a class="drop" href="#m1">Sua Beleza</a>
+                            <div class="submenu">
+                                <p class="p">Sabemos que com a rotina agitada nem sempre sobre tempo para se cuidar. Por isso o programa Sua Beleza traz para dentro da MRV um “salão de beleza”, facilitando cuidados de rotina.</p>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="menu">
+                        <li class="item" id="m2">
+                            <a class="drop" href="#m2">Sua Mente</a>
+                            <div class="submenu">
+                                <p class="p">Sabemos que com a rotina agitada nem sempre sobre tempo para se cuidar. Por isso o programa Sua Beleza traz para dentro da MRV um “salão de beleza”, facilitando cuidados de rotina.</p>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="menu">
+                        <li class="item" id="m3">
+                            <a class="drop" href="#m3">Encontro</a>
+                            <div class="submenu">
+                                <p class="p">Sabemos que com a rotina agitada nem sempre sobre tempo para se cuidar. Por isso o programa Sua Beleza traz para dentro da MRV um “salão de beleza”, facilitando cuidados de rotina.</p>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="menu">
+                        <li class="item" id="m4">
+                            <a class="drop" href="#m4">Seu Estilo</a>
+                            <div class="submenu">
+                                <p class="p">Sabemos que com a rotina agitada nem sempre sobre tempo para se cuidar. Por isso o programa Sua Beleza traz para dentro da MRV um “salão de beleza”, facilitando cuidados de rotina.</p>
+                            </div>
+                        </li>
+                    </div>  
+                </div>      
             </div>
         </div>
         <!-- Space -->
         <div class="space">
-            <div class="grid-10">
+            <div class="grid-10 space-img">
                 <img src="../assets/images/Galeria.png">
             </div>
-            <div class="grid-10">
+            <div class="grid-10 space-text">
                 <h1 class="h1">Conheça nosso espaço </h1>
                 <p class="p">Temos um ambiente dinâmico, que estimula o aprendizado e convida todos a pensarem no bem comum. Afinal, estamos construindo hoje as bases para um mundo melhor, cheio de inovação, sustentabilidade e integridade. E tudo isso a gente já encontra por aqui.</p>
                 <p class="P"><strong>Clique aqui e faça um tour virtual pela nossa sede em BH (MG).</strong></p>
