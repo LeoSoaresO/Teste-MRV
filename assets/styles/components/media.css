@@ -1,83 +1,57 @@
 @import url('../style.css');
 
-@media (max-width: 780px) and (min-width: 500px) {
-    header {
-        display: none !important;
-    }
-    .header-mobile {
-        display: block !important;
-    }
-    .header-mobile img {
+@media (max-width: 1260px) and (min-width: 780px) {
+    header, .mrv-logo, .work, .form, .values, .acc, .menu, .carrer-text, .carrer-modal, .work-form .form select, input, .space-text, .space-img{
         width: 100%;
-        margin-left: 10%;
-        margin-top: 10%;
+    }
+    .mrv-logo .img {
+        margin: 25px 300px;
+    }
+    .head-menu {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .presentation {
+        height: auto !important;
+    }
+    .pres-text {
+        height: 190px !important;
+    }
+    .pres-img img{
+        height: 190px !important;
     }
     .h1 {
         font-size: 30px !important;
         line-height: 30px !important;
     }
-    .presentation {
-        display: block !important;
-        height: 70px !important;
-    }
-    .presentation .pres-text {
-        border-radius: 35px 0px 0px 35px !important;
-        height: 100px !important;
-        margin-left: 3%;
-        margin-top: -40px;
-        position: absolute;
-        z-index: 1;
-      }
-    .presentation .pres-text h1, h2 {
-        margin: 0px !important;
-        font-size: 30px;
-        padding-left: 30px;
-        padding-top: 10px
-    }
-    .presentation .pres-img, .acc-desk, .imgs, .values-background, .footer {
-        display: none !important;
-    } 
-    .carrer{
+    .carrer, .acc-mobile{
         display: block !important;
     }
     .carrer-modal .logos {
         margin: 12% 25% !important;
     }
-    .acc-mobile {
-        display: block !important;
+    .acc-desk, .footer, .imgs, .values-background {
+        display: none !important;
     }
-    .space {
-        width: 97% !important;
-    }
-    .work, .form, .values, .acc, .menu, .carrer-text, .work-form .form select, input, .carrer-modal {
-        width: 100% !important;
+    .space-img, .space-text {
+        text-align: center;
+        margin-bottom: 30px;
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 500px) {
-    header {
-        display: none !important;
+@media (max-width: 1256px) and (min-width: 988px) {
+    .mrv-logo .img {
+        margin: 25px 490px;
     }
-    .header-mobile {
-        display: block !important;
+    .pres-text h1 {
+        margin-top: 10% !important;
     }
+    .carrer-modal .logos {
+        margin: 12% 35% !important;
+    }
+}
+
+@media (max-width: 780px) and (min-width: 500px) {
     .header-mobile img {
         width: 100%;
         margin-left: 10%;
@@ -88,7 +62,6 @@
         line-height: 30px !important;
     }
     .presentation {
-        display: block !important;
         height: 70px !important;
     }
     .presentation .pres-text {
@@ -105,18 +78,28 @@
         padding-left: 30px;
         padding-top: 10px
     }
-    .presentation .pres-img, .acc-desk, .imgs, .values-background, .footer {
+    .presentation .pres-img, .acc-desk, .imgs, .values-background, .footer, header {
         display: none !important;
     } 
-    .carrer{
+    .carrer, .acc-mobile, .presentation, .header-mobile{
         display: block !important;
     }
-    .carrer-text {
-        width: 100%;
+    .carrer-modal .logos {
+        margin: 12% 25% !important;
     }
-    .carrer-modal {
-        width: 100%;
+    .space {
+        width: 97% !important;
     }
+    .work, .form, .values, .acc, .menu, .carrer-text, .carrer-modal, .work-form .form select, input, .space-text, .space-img {
+        width: 100% !important;
+    }
+    .space-img {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 500px) {
     .carrer-modal .logos {
         margin: 12% 10% !important;
     }
@@ -126,10 +109,7 @@
     .space {
         width: 97% !important;
     }
-    .work, .form {
-        width: 100% !important;
-    }
-    .work-form .form select, input {
+    .work-form .form select, input, .carrer-text, .carrer-modal, .work, .form {
         width: 100%;
     }
 }
